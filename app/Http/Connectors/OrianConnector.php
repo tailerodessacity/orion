@@ -29,4 +29,12 @@ class OrianConnector extends Connector
             'timeout' => 30,
         ];
     }
+
+    protected function defaultHeaders(): array
+    {
+        return [
+            'Content-Type' => 'application/json',
+            'Accept' => 'application/json',
+        ];
+    }
 }
