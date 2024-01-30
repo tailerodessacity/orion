@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Integrations;
+namespace App\Http\Integrations\Requests;
 
 use App\Http\Connectors\OrianConnector;
 use App\Http\Integrations\Orian\DataObjects\CompanyDTO;

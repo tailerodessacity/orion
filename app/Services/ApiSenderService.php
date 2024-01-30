@@ -2,7 +2,7 @@
 
 namespace App\Services;
 
-use App\Http\Integrations\OrianRepositoryCompanyRequest;
+use App\Http\Integrations\Requests\OrianRepositoryCompanyRequest;
 use Saloon\Http\Connector;
 
 class ApiSenderService
